@@ -1,0 +1,465 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28020",
+          "message": {
+            "text": "The expression '0<=_Param_(1)&&_Param_(1)<=400-1' is not true at this call."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Pallav/Desktop/Anima/MFCApplication2/MFCApplication/json-3.10.5/single_include/nlohmann/json.hpp"
+                },
+                "region": {
+                  "startLine": 16947,
+                  "startColumn": 28,
+                  "endLine": 16947,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "nlohmann::detail::serializer<nlohmann::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> > > >::decode",
+                  "decoratedName": "?decode@?$serializer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@@nlohmann@@@detail@nlohmann@@CAEAEAEAEAIE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/json-3.10.5/single_include/nlohmann/json.hpp"
+                          },
+                          "region": {
+                            "startLine": 16926,
+                            "startColumn": 52
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/json-3.10.5/single_include/nlohmann/json.hpp"
+                          },
+                          "region": {
+                            "startLine": 16947,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Pallav/Desktop/Anima/MFCApplication2/MFCApplication/json-3.10.5/single_include/nlohmann/json.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e832d339d9e0c042e7dff807754769d778cf5d6ae9730ce21eed56de99cb5e86"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/mfcocrreaderdlg.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "fedfba162d0da6e55751984e8ebd734e0ffd9eeb643977b865b6d28805a1c446"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/pch.h"
+          },
+          "hashes": {
+            "sha-256": "afebe96fbcba09d945ccfadb227fddf64b95af41257ffafdc849c7067c061ba0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/framework.h"
+          },
+          "hashes": {
+            "sha-256": "cc0c0a8c20dd96228c9c22521c497c1fdb6aeb4cd256d5963c31fca62d350d0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/targetver.h"
+          },
+          "hashes": {
+            "sha-256": "c02bf8279b8181aa5c7e32bf5de2c589222dcb2518827f3548541f1202ba8286"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/mfcapplication.h"
+          },
+          "hashes": {
+            "sha-256": "b6e3b7c4df542a0c33868aaee884056473cb950c769c3296b6de55639ff82f7f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/resource.h"
+          },
+          "hashes": {
+            "sha-256": "34c329397b704205782fce29cd2f53bd81fd3dfcbd3890d076ab4b7594b484b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/initthread.h"
+          },
+          "hashes": {
+            "sha-256": "ce6e8034c0dfdb77f3824fecf441db09014480c6b928ce68b2610dbe7769bbe9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/initdlg.h"
+          },
+          "hashes": {
+            "sha-256": "a82df56c705837a02263bf59f791a16503db8a491fee2d9428ee98157deba819"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/mfcocrreaderdlg.h"
+          },
+          "hashes": {
+            "sha-256": "8b2b3a5ab14b1e757df67b7dab1d7c8d4a2495b44acfd86803e9f2da0c05d22d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/tesseract/baseapi.h"
+          },
+          "hashes": {
+            "sha-256": "8ce1430c684e20108077c583f96976a527ff6d8679843de13788469b57d40ea1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/tesseract/export.h"
+          },
+          "hashes": {
+            "sha-256": "b894104a670bf5db67c859489236ed6dae7be62deb98747eba6792d8343a1b3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/tesseract/pageiterator.h"
+          },
+          "hashes": {
+            "sha-256": "42532e36d93074244c3c7cae13428d29da29b18bcf1b4c17a649d5f51203ec07"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/tesseract/publictypes.h"
+          },
+          "hashes": {
+            "sha-256": "33d1c27b4bbbc1cfe05d9df2952bd0d8f924e06965a105756c0acbb6cef2ce43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/tesseract/resultiterator.h"
+          },
+          "hashes": {
+            "sha-256": "7c3b1b8112b0e167b564866191afb7bdb1c0c6e537c3d48469391a1def968d66"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/tesseract/ltrresultiterator.h"
+          },
+          "hashes": {
+            "sha-256": "3ce20126f70f90cb4504d2ceed7ab05382d208e49cc7f713eaaeddc5558c2106"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/tesseract/unichar.h"
+          },
+          "hashes": {
+            "sha-256": "e037b51c0ef8a50cd7ce16b47f017cb1d02d882edfc60dbe159fad9c21988672"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/tesseract/version.h"
+          },
+          "hashes": {
+            "sha-256": "a92d5c0361bfbedfa1df9966e226d18b2df5b29ab7e3756e60e5c3addd7973e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/allheaders.h"
+          },
+          "hashes": {
+            "sha-256": "649511a8bf75720ce029cf55893fe4385fc4a9006becebe883f9c4e726b682b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/alltypes.h"
+          },
+          "hashes": {
+            "sha-256": "fdbf66ffef386c429c04b6118865d8509ff63d5c0e52949918fe95e64db4ee55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/endianness.h"
+          },
+          "hashes": {
+            "sha-256": "c71b2262f0414d958ba5773981e77e4ed811233d1595c616b123745acc5aefb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/environ.h"
+          },
+          "hashes": {
+            "sha-256": "426e3d117749a3125543eb46d2ccd72db614d13023189077620acea5655b041c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/array.h"
+          },
+          "hashes": {
+            "sha-256": "f1375e05bc50f0c3fbbd7b84a16fa9cc0247b9066d84af2a691797b86ef8731d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/bbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "3d3143760c038f84c4dd2f486148fd0d0e7b47159ad048451bc59ebb76bb0e98"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/hashmap.h"
+          },
+          "hashes": {
+            "sha-256": "709f971fba7781f4008168c9c637a331d91343b599780986c0d3fe647531d342"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/heap.h"
+          },
+          "hashes": {
+            "sha-256": "1cbe49878267244a073eb78ac0d9fb6245ec8f106355ce652eb1bfba19de99e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/list.h"
+          },
+          "hashes": {
+            "sha-256": "87ba4e86977664f429477d71b139a14ff7b6d343f101f8d16e8c0772d2b07173"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/ptra.h"
+          },
+          "hashes": {
+            "sha-256": "375e63b855fde88eb3b89be56cfa6bdeab0f110b2d9f13858ba3a40cc7e8a714"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/queue.h"
+          },
+          "hashes": {
+            "sha-256": "7a0aafe30e528e148f335c8b319e6f38982c521a0ff3a7c365e3fb93b3886914"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/rbtree.h"
+          },
+          "hashes": {
+            "sha-256": "b1fa73a1ff5a769c3ac1ba254e282b8c2ac0b0bf31e623ab91dce38fd256fa8c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/stack.h"
+          },
+          "hashes": {
+            "sha-256": "e58360890164679417191a50cce97de53d8402d9b804bea136a173fa420ccd52"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/arrayaccess.h"
+          },
+          "hashes": {
+            "sha-256": "3d0c332e2e98ed2d8472a8f45a221a6bf9e75ed0c25f471d8afaf15a5a94017f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/bmf.h"
+          },
+          "hashes": {
+            "sha-256": "283001e600b4455f9da85f7e6ff0b27c817322891ac3b80f6fcfb02ca832bbce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/ccbord.h"
+          },
+          "hashes": {
+            "sha-256": "45015ff3b2e92d8afcc0124da062a351ba2563f5bfbd410adc9cb5dcef158f55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/colorfill.h"
+          },
+          "hashes": {
+            "sha-256": "119b952a9a8c5304aec73214378641b5953147d1c1689e3e4d1453a6fb8acd01"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/dewarp.h"
+          },
+          "hashes": {
+            "sha-256": "44fb09a07a1347d635625277eec6969bdc530e51686f5f5fff9b4ef1cc2d9804"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/gplot.h"
+          },
+          "hashes": {
+            "sha-256": "b39294d84d6a199d5d2d551f51008ef4be3b1b7afd5275666f2e0ee04b7297d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/imageio.h"
+          },
+          "hashes": {
+            "sha-256": "ef4eb553c800eddc04a767a38b5366427b4573553e37762da0b0e37283545215"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/jbclass.h"
+          },
+          "hashes": {
+            "sha-256": "afb8e526bc414980bd7f7cccfdcb349190d1ec1a5543282faaf8319889d24d7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/morph.h"
+          },
+          "hashes": {
+            "sha-256": "64058f10dde70c89ce6065c9f6845b5732760e20790034bd95af79d2d913c38b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/pix.h"
+          },
+          "hashes": {
+            "sha-256": "8c9098d8d365296127fe12d27b5475571b6bb9d2321d2321db27db1dfb2ebe3a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/recog.h"
+          },
+          "hashes": {
+            "sha-256": "18568150c46d0a4b471bca3b26f7744bdd895ac456c85b1b5cb0fc243437af2f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/regutils.h"
+          },
+          "hashes": {
+            "sha-256": "a62f3c204a3591680518170a26ed32d914fd448c66e23b0d45140c3b8850cf00"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/stringcode.h"
+          },
+          "hashes": {
+            "sha-256": "a125a55b46bb2b3c4b1fafdb7c1074ce71a25cd54f7487a5380f0f8ae48c0005"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/sudoku.h"
+          },
+          "hashes": {
+            "sha-256": "7e79053c5298f19ffafe40995f8838872e639a0a6677c6af0c6825d364efabc2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/vcpkg-master/vcpkg-master/installed/x64-windows/include/leptonica/watershed.h"
+          },
+          "hashes": {
+            "sha-256": "3428bcacbd361395195203944e16ec5dcd419d38b5438f4a80354101c875229c"
+          }
+        }
+      ]
+    }
+  ]
+}

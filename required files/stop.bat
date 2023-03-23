@@ -1,0 +1,1 @@
+docker stop anima-try-2

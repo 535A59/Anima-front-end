@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/pch.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "f07eaa29cbbf71027d9b3dd0cec562a15d546a6ca8b5dee927b4a865860ec6e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/pch.h"
+          },
+          "hashes": {
+            "sha-256": "afebe96fbcba09d945ccfadb227fddf64b95af41257ffafdc849c7067c061ba0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/framework.h"
+          },
+          "hashes": {
+            "sha-256": "cc0c0a8c20dd96228c9c22521c497c1fdb6aeb4cd256d5963c31fca62d350d0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/targetver.h"
+          },
+          "hashes": {
+            "sha-256": "c02bf8279b8181aa5c7e32bf5de2c589222dcb2518827f3548541f1202ba8286"
+          }
+        }
+      ]
+    }
+  ]
+}

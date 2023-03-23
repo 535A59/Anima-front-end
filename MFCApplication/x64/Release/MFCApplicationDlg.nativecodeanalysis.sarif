@@ -1,0 +1,177 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28020",
+          "message": {
+            "text": "The expression '0<=_Param_(1)&&_Param_(1)<=400-1' is not true at this call."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Pallav/Desktop/Anima/MFCApplication2/MFCApplication/json-3.10.5/single_include/nlohmann/json.hpp"
+                },
+                "region": {
+                  "startLine": 16947,
+                  "startColumn": 28,
+                  "endLine": 16947,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "nlohmann::detail::serializer<nlohmann::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> > > >::decode",
+                  "decoratedName": "?decode@?$serializer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@@nlohmann@@@detail@nlohmann@@CAEAEAEAEAIE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/json-3.10.5/single_include/nlohmann/json.hpp"
+                          },
+                          "region": {
+                            "startLine": 16926,
+                            "startColumn": 52
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/json-3.10.5/single_include/nlohmann/json.hpp"
+                          },
+                          "region": {
+                            "startLine": 16947,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Pallav/Desktop/Anima/MFCApplication2/MFCApplication/json-3.10.5/single_include/nlohmann/json.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e832d339d9e0c042e7dff807754769d778cf5d6ae9730ce21eed56de99cb5e86"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/mfcapplicationdlg.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "95b762bc801fbe05d76d47de59e156b8917e712317612594e29ae7d1528a1509"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/pch.h"
+          },
+          "hashes": {
+            "sha-256": "afebe96fbcba09d945ccfadb227fddf64b95af41257ffafdc849c7067c061ba0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/framework.h"
+          },
+          "hashes": {
+            "sha-256": "cc0c0a8c20dd96228c9c22521c497c1fdb6aeb4cd256d5963c31fca62d350d0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/targetver.h"
+          },
+          "hashes": {
+            "sha-256": "c02bf8279b8181aa5c7e32bf5de2c589222dcb2518827f3548541f1202ba8286"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/mfcapplication.h"
+          },
+          "hashes": {
+            "sha-256": "b6e3b7c4df542a0c33868aaee884056473cb950c769c3296b6de55639ff82f7f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/resource.h"
+          },
+          "hashes": {
+            "sha-256": "34c329397b704205782fce29cd2f53bd81fd3dfcbd3890d076ab4b7594b484b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/initthread.h"
+          },
+          "hashes": {
+            "sha-256": "ce6e8034c0dfdb77f3824fecf441db09014480c6b928ce68b2610dbe7769bbe9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/initdlg.h"
+          },
+          "hashes": {
+            "sha-256": "a82df56c705837a02263bf59f791a16503db8a491fee2d9428ee98157deba819"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/mfcapplicationdlg.h"
+          },
+          "hashes": {
+            "sha-256": "d4f34a4efb293b758b9fbc3d1b652a10e63d304bceaab4fdb42294fb08fa4d81"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+﻿  MFCRecordPage.cpp
+C:\Users\Pallav\Desktop\Anima\MFCApplication2\MFCApplication\MFCApplication\MFCRecordPage.cpp(97,15): warning C4129: 'P': unrecognized character escape sequence
+C:\Users\Pallav\Desktop\Anima\MFCApplication2\MFCApplication\MFCApplication\MFCRecordPage.cpp(102,30): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Pallav\Desktop\Anima\MFCApplication2\MFCApplication\MFCApplication\MFCRecordPage.cpp(133,5): warning C4311: 'type cast': pointer truncation from 'HWND' to 'DWORD'
+C:\Users\Pallav\Desktop\Anima\MFCApplication2\MFCApplication\MFCApplication\MFCRecordPage.cpp(133,5): warning C4302: 'type cast': truncation from 'HWND' to 'DWORD'
+C:\Users\Pallav\Desktop\Anima\MFCApplication2\MFCApplication\MFCApplication\MFCRecordPage.cpp(254,32): warning C4101: 'e': unreferenced local variable
+  MFCApplication.vcxproj -> C:\Users\Pallav\Desktop\Anima\MFCApplication2\MFCApplication\x64\Debug\MFCApplication.exe

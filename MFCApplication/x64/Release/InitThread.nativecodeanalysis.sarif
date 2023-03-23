@@ -1,0 +1,124 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'InitThread::m_pInitDlg' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Pallav/Desktop/Anima/MFCApplication2/MFCApplication/MFCApplication/InitThread.cpp"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 13,
+                  "endLine": 13,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InitThread::{ctor}",
+                  "decoratedName": "??0InitThread@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "InitThread::m_pInitDlg"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Pallav/Desktop/Anima/MFCApplication2/MFCApplication/MFCApplication/InitThread.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a2d272ec1030b6265a4b68788c063d5265b68aa5d8d683575669bd1172a87629"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/pch.h"
+          },
+          "hashes": {
+            "sha-256": "afebe96fbcba09d945ccfadb227fddf64b95af41257ffafdc849c7067c061ba0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/framework.h"
+          },
+          "hashes": {
+            "sha-256": "cc0c0a8c20dd96228c9c22521c497c1fdb6aeb4cd256d5963c31fca62d350d0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/targetver.h"
+          },
+          "hashes": {
+            "sha-256": "c02bf8279b8181aa5c7e32bf5de2c589222dcb2518827f3548541f1202ba8286"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/mfcapplication.h"
+          },
+          "hashes": {
+            "sha-256": "b6e3b7c4df542a0c33868aaee884056473cb950c769c3296b6de55639ff82f7f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/resource.h"
+          },
+          "hashes": {
+            "sha-256": "34c329397b704205782fce29cd2f53bd81fd3dfcbd3890d076ab4b7594b484b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/initthread.h"
+          },
+          "hashes": {
+            "sha-256": "ce6e8034c0dfdb77f3824fecf441db09014480c6b928ce68b2610dbe7769bbe9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/initdlg.h"
+          },
+          "hashes": {
+            "sha-256": "a82df56c705837a02263bf59f791a16503db8a491fee2d9428ee98157deba819"
+          }
+        }
+      ]
+    }
+  ]
+}

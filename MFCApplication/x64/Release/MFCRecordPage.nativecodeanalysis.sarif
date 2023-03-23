@@ -1,0 +1,199 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Pallav/Desktop/Anima/MFCApplication2/MFCApplication/MFCApplication/MFCRecordPage.cpp"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MFCRecordPage::OnInitDialog",
+                  "decoratedName": "?OnInitDialog@MFCRecordPage@@MEAAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6308",
+          "message": {
+            "text": "'realloc' might return null pointer: assigning null pointer to 'unsigned char * pSaveBuffer', which is passed as an argument to 'realloc', will cause the original memory block to be leaked."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Pallav/Desktop/Anima/MFCApplication2/MFCApplication/MFCApplication/MFCRecordPage.cpp"
+                },
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 23,
+                  "endLine": 163,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MFCRecordPage::OnBnClickedRecordStart",
+                  "decoratedName": "?OnBnClickedRecordStart@MFCRecordPage@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Pallav/Desktop/Anima/MFCApplication2/MFCApplication/MFCApplication/MFCRecordPage.cpp"
+                },
+                "region": {
+                  "startLine": 277,
+                  "startColumn": 43,
+                  "endLine": 277,
+                  "endColumn": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MFCRecordPage::OnMM_WIM_DATA",
+                  "decoratedName": "?OnMM_WIM_DATA@MFCRecordPage@@IEAA_J_K_J@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Pallav/Desktop/Anima/MFCApplication2/MFCApplication/MFCApplication/MFCRecordPage.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c70af5bc346c95d5856e66dd245ce29a8fd6ca3958ad75ac3f56d9e834c936ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/pch.h"
+          },
+          "hashes": {
+            "sha-256": "afebe96fbcba09d945ccfadb227fddf64b95af41257ffafdc849c7067c061ba0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/framework.h"
+          },
+          "hashes": {
+            "sha-256": "cc0c0a8c20dd96228c9c22521c497c1fdb6aeb4cd256d5963c31fca62d350d0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/targetver.h"
+          },
+          "hashes": {
+            "sha-256": "c02bf8279b8181aa5c7e32bf5de2c589222dcb2518827f3548541f1202ba8286"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/mfcapplication.h"
+          },
+          "hashes": {
+            "sha-256": "b6e3b7c4df542a0c33868aaee884056473cb950c769c3296b6de55639ff82f7f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/resource.h"
+          },
+          "hashes": {
+            "sha-256": "34c329397b704205782fce29cd2f53bd81fd3dfcbd3890d076ab4b7594b484b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/initthread.h"
+          },
+          "hashes": {
+            "sha-256": "ce6e8034c0dfdb77f3824fecf441db09014480c6b928ce68b2610dbe7769bbe9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/initdlg.h"
+          },
+          "hashes": {
+            "sha-256": "a82df56c705837a02263bf59f791a16503db8a491fee2d9428ee98157deba819"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/mfcrecordpage.h"
+          },
+          "hashes": {
+            "sha-256": "3a84305553f58b6d5b4c9a26b3ad35f235185c3f082c2a6ddabc5472af1f28fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/mfcapplication/recordnamedlg.h"
+          },
+          "hashes": {
+            "sha-256": "f81ac20009b9ce8b3a27102685e432bd6d83e7a2dbeee6d9323f3328529674b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pallav/desktop/anima/mfcapplication2/mfcapplication/json-3.10.5/single_include/nlohmann/json.hpp"
+          },
+          "hashes": {
+            "sha-256": "e832d339d9e0c042e7dff807754769d778cf5d6ae9730ce21eed56de99cb5e86"
+          }
+        }
+      ]
+    }
+  ]
+}

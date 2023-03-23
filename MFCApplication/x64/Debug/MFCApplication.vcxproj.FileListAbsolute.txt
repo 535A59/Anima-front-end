@@ -1,0 +1,13 @@
+C:\Voice Banking\MFCApplication\x64\Debug\x86\leptonica-1.82.0.dll
+C:\Voice Banking\MFCApplication\x64\Debug\x86\tesseract50.dll
+C:\Voice Banking\MFCApplication\x64\Debug\x64\leptonica-1.82.0.dll
+C:\Voice Banking\MFCApplication\x64\Debug\x64\tesseract50.dll
+C:\Voice Banking\MFCApplication\MFCApplication\x64\Debug\MFCApplication.vcxproj.CopyComplete
+C:\Users\Pallav\Desktop\Anima\MFCApplication (2)\MFCApplication\x64\Debug\x86\leptonica-1.82.0.dll
+C:\Users\Pallav\Desktop\Anima\MFCApplication (2)\MFCApplication\x64\Debug\x86\tesseract50.dll
+C:\Users\Pallav\Desktop\Anima\MFCApplication (2)\MFCApplication\x64\Debug\x64\leptonica-1.82.0.dll
+C:\Users\Pallav\Desktop\Anima\MFCApplication (2)\MFCApplication\x64\Debug\x64\tesseract50.dll
+C:\Users\Pallav\Desktop\Anima\MFCApplication2\MFCApplication\x64\Debug\x86\leptonica-1.82.0.dll
+C:\Users\Pallav\Desktop\Anima\MFCApplication2\MFCApplication\x64\Debug\x86\tesseract50.dll
+C:\Users\Pallav\Desktop\Anima\MFCApplication2\MFCApplication\x64\Debug\x64\leptonica-1.82.0.dll
+C:\Users\Pallav\Desktop\Anima\MFCApplication2\MFCApplication\x64\Debug\x64\tesseract50.dll
